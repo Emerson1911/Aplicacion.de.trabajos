@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu.views.Mexicano"
+             Title="Mexicano"
+             BackgroundImageSource="hola1.jpg">
+    <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+        <Label Text="cantidad de dinero" FontFamily="" TextColor="Coral" FontSize="20" />
+        <Entry Placeholder="Escriba cantidad a convertir" x:Name="Dinero"  FontSize="20" FontFamily="" TextColor="White" PlaceholderColor="White"/>
+        <Label Text="Dinero mexicano" FontSize="20" FontFamily="" TextColor="White"/>
+        <Entry Placeholder="Cantidad Mexicana" x:Name="cantidad" FontSize="20" FontFamily="" TextColor="White" PlaceholderColor="White"/>
+        <Button Text="Calcular" x:Name="Calcular" Clicked="Calcular_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

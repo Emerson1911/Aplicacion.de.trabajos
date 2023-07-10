@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu.views.Numeros1al10"
+             Title="Tablas de Multiplicar"
+             BackgroundImageSource="holar.jpg">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label Text="Numero de la Tabla" TextColor="White" FontFamily=""/>
+            <Entry Placeholder="Escribe el numero de la tabla" x:Name="Tabla" TextColor="White" PlaceholderColor="White" FontFamily=""/>
+            <Label Text="Tabla" TextColor="White" FontFamily=""/>
+            <Entry Placeholder="Tabla generada" x:Name="respuesta" TextColor="White" PlaceholderColor="White" FontFamily=""/>
+            <Button Text="Tabla" x:Name="calcular" Clicked="calcular_Clicked" BackgroundColor="Coral" TextColor="White"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+    
+</ContentPage>

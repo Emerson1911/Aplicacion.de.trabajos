@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu.views.Langosta"
+             Title="Langosta Humada"
+             BackgroundImageSource="holal.jpg">
+    <VerticalStackLayout
+         Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+        <Label Text="Escriba el numero de platos" FontFamily=""/>
+        <Entry Placeholder="Escriba los platos a ordenar" x:Name="Platos" FontFamily="" TextColor="Black" PlaceholderColor="Black"/>
+        <Label Text="Costo Final" FontFamily=""/>
+        <Entry Placeholder="Total a Pagar" x:Name="Pago" FontFamily=""/>
+        <Button Text="Calcular" x:Name="Total" Clicked="Total_Clicked"/>
+
+    </VerticalStackLayout>
+    
+</ContentPage>

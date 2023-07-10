@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Menu.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Menu"
+    xmlns:views="clr-namespace:Menu.views"
+    FlyoutHeaderBehavior="CollapseOnScroll"
+    FlyoutBackgroundImage="holay.jpg"
+    FlyoutBackgroundImageAspect="AspectFill">
+
+    <Shell.FlyoutHeaderTemplate >
+        <DataTemplate>
+            <Grid BackgroundColor="AliceBlue"
+                  HeightRequest="150">
+                <Image Aspect="AspectFill"
+                       Source="raiden3.gif"
+                       IsAnimationPlaying="True"
+                       Opacity="0.6"/>
+                <Label Text="Perfil"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="End"
+                       HorizontalOptions="Center"/>
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <ShellContent Title="Inicio" 
+                  ContentTemplate="{DataTemplate views:Inicio}"/>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" >
+
+        <ShellContent Title="Numeros 0 al 100" 
+                  ContentTemplate="{DataTemplate views:Numeros0al100}"/>
+        <ShellContent Title="Numeros 1 al 10" 
+                  ContentTemplate="{DataTemplate views:Numeros1al10}"/>
+        <ShellContent Title="Numeros 10 al 1" 
+                  ContentTemplate="{DataTemplate views:Numeros10al1}"/>
+        <ShellContent Title="Sueldo Semanal" 
+                  ContentTemplate="{DataTemplate views:Sueldo}"/>
+        <ShellContent Title="Langosta" 
+                  ContentTemplate="{DataTemplate views:Langosta}"/>
+        <ShellContent Title="Dinero Mexicano" 
+                  ContentTemplate="{DataTemplate views:Mexicano}"/>
+    </FlyoutItem>
+
+
+</Shell>

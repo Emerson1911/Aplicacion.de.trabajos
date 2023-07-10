@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu.views.Numeros0al100"
+             Title="Numeros pares del 0 al 100"
+             BackgroundImageSource="hola1.jpg">
+    <VerticalStackLayout
+         Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+        <Label Text="Escriba el numero par"/>
+        <Entry Placeholder=" Escribir el 0" x:Name="pares" PlaceholderColor="White" TextColor="White"/>
+        <Label Text="Numeros pares" x:Name="respuesta" TextColor="White"/>
+        <Button Text="Generar Numeros" x:Name="Calcular" Clicked="Calcular_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
