@@ -4,6 +4,9 @@
              x:Class="Menu.views.Inicio"
              Title="Inicio"
              BackgroundImageSource="holapo.jpg">
+    
+    <!--#-->
+    
     <StackLayout Spacing="25"
         Padding="30,0"
         VerticalOptions="Center">
