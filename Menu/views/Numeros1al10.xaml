@@ -5,6 +5,7 @@
              Title="Tablas de Multiplicar"
              BackgroundImageSource="holar.jpg">
 
+    <!----#---!>
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"

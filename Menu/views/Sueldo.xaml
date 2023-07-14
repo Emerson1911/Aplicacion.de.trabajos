@@ -4,6 +4,7 @@
              x:Class="Menu.views.Sueldo"
              Title="Sueldo Semanal de un trabajador"
              BackgroundImageSource="hola1.jpg">
+    <!---#----!>
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"

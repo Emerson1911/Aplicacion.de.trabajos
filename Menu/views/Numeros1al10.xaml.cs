@@ -4,6 +4,9 @@ namespace Menu.views;
 
 public partial class Numeros1al10 : ContentPage
 {
+	//<sumary>
+	//Esto lo hizo Hillary
+	//</sumary>
 	public Numeros1al10()
 	{
 		InitializeComponent();

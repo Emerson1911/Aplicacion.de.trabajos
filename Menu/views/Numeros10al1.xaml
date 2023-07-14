@@ -4,6 +4,7 @@
              x:Class="Menu.views.Numeros10al1"
              Title="Temporizador"
              BackgroundImageSource="holar.jpg">
+   
     <StackLayout
         VerticalOptions="CenterAndExpand">
         <Label

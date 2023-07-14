@@ -2,6 +2,9 @@ namespace Menu.views;
 
 public partial class Sueldo : ContentPage
 {
+	//<sumary>
+	//Esto lo hizo Hillary
+	//</sumary>
 	public Sueldo()
 	{
 		InitializeComponent();
