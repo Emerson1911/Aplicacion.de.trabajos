@@ -2,7 +2,10 @@ namespace Menu.views;
 
 public partial class Mexicano : ContentPage
 {
-	public Mexicano()
+    /// <summary>
+    /// Esto lo hizo Erika
+    /// </summary>
+    public Mexicano()
 	{
 		InitializeComponent();
 	}

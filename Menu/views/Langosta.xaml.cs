@@ -2,7 +2,10 @@ namespace Menu.views;
 
 public partial class Langosta : ContentPage
 {
-	public Langosta()
+    /// <summary>
+    /// Esto lo hizo Erika
+    /// </summary>
+    public Langosta()
 	{
 		InitializeComponent();
 	}

@@ -2,7 +2,10 @@ namespace Menu.views;
 
 public partial class Numeros0al100 : ContentPage
 {
-	public Numeros0al100()
+    /// <summary>
+    /// Esto lo hizo Erika
+    /// </summary>
+    public Numeros0al100()
 	{
 		InitializeComponent();
 	}

@@ -4,6 +4,7 @@
              x:Class="Menu.views.Langosta"
              Title="Langosta Humada"
              BackgroundImageSource="holal.jpg">
+    <!--#-->
     <VerticalStackLayout
          Spacing="25"
             Padding="30,0"
